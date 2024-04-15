@@ -38,7 +38,7 @@ class _PageBuilderState extends State<PageBuilder> {
                 iconPath: 'img/icons/Feed.png',
                 selectedIconPath: 'img/icons/Feed0-1.png',
                 label: 'Лента'),
-            IconButton(icon: Icon(Icons.notifications), onPressed: () {}),
+            IconButton(icon: const Icon(Icons.notifications), onPressed: () {}),
             IconButton(
                 icon: Image.asset(
                   'img/icons/Home.png',
