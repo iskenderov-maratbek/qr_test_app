@@ -14,6 +14,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Qr Test App',
       theme: ThemeData(
+        fontFamily: 'SFProDisplay',
+        bottomAppBarTheme: const BottomAppBarTheme(
+          color: Colors.transparent,
+          surfaceTintColor: Colors.transparent,
+        ),
         elevatedButtonTheme: const ElevatedButtonThemeData(
           style: ButtonStyle(
             splashFactory: NoSplash.splashFactory,

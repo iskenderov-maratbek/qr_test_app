@@ -26,10 +26,11 @@ flutter:
 
   assets:
     - img/icons/
-
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+    - img/contents/
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: fonts/SF-Pro-Display-Regular.otf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
